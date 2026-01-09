@@ -273,3 +273,71 @@
 .note-card:hover {
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.12);
 }
+
+/* ---------------*/
+/* second braihn section  */
+#second-brain {
+    padding: 100px 0;
+    background-color: #ffffff;
+}
+
+.second-brain-container {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.brain-image {
+    width: 50%;
+}
+
+.brain-image img {
+    width: 100%;
+    display: block;
+}
+
+.brain-content {
+    width: 50%;
+}
+
+.solution-text {
+    font-size: 14px;
+    font-weight: 600;
+    color: #3a8f5c;
+    margin-bottom: 10px;
+}
+
+.brain-content h2 {
+    font-size: 36px;
+    line-height: 46px;
+    color: #102a43;
+    margin-bottom: 20px;
+}
+
+.brain-desc {
+    font-size: 16px;
+    line-height: 28px;
+    color: #6b7280;
+    margin-bottom: 30px;
+}
+
+.brain-list {
+    list-style: none;
+}
+
+.brain-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    color: #102a43;
+    margin-bottom: 15px;
+}
+
+.brain-list img {
+    width: 18px;
+}
+
+.brain-list li:last-child {
+    margin-bottom: 0;
+}
