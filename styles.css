@@ -341,3 +341,46 @@
 .brain-list li:last-child {
     margin-bottom: 0;
 }
+
+/* ujytiuytiouy987987uj
+kuyj
+---------------------
+/* early access section */
+/* challangin partyryh */ 
+
+#early-access {
+  padding: 100px 0;
+  background-color: #ffffff;
+}
+
+.early-access-box {
+  background-color: #f7f5ef;
+  border-radius: 16px;
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.early-access-box h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #102a43;
+  margin-bottom: 20px;
+}
+
+.early-access-sub {
+  font-size: 18px;
+  line-height: 30px;
+  color: #6b7280;
+  margin-bottom: 40px;
+}
+
+.early-access-btn {
+  padding: 18px 36px;
+  font-size: 18px;
+}
+
+.early-access-note {
+  margin-top: 18px;
+  font-size: 14px;
+  color: #6b7280;
+}
