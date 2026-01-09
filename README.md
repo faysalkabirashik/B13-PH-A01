@@ -10,7 +10,7 @@ The goal of this assignment is to practice **HTML & CSS fundamentals** on hand.
 
 ## Live site link
 You can find this repo. live link:
-🔗 https://github.com/faysalkabirashik/B13-PH-A01
+🔗 https://faysalkabirashik.github.io/B13-PH-A01/
 
 ## Technologies Used
 - HTML5  
