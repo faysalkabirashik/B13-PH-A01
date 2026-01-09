@@ -1,3 +1,169 @@
-body{
-    background-color: lightblue;
+/* navbar, hero section  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+.font-inter {
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: #3a8f5c;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #2f744c;
+}
+
+/* navbar*/
+.header {
+    background-color: white;
+    padding: 20px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #474747;
+}
+
+.menu a:hover {
+    color: #3a8f5c;
+}
+
+/* hero section */
+
+#banner {
+    position: relative;
+}
+
+.banner-bg {
+    width: 100%;
+    display: block;
+}
+
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(7, 26, 45, 0.75);
+}
+
+.banner-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 200px;
+    text-align: center;
+    color: white;
+}
+
+.early-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #ffffff;
+    padding: 6px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.badge-dot {
+    width: 16px;
+    height: 16px;
+    border: 2px solid #9fd6b8;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dot-inner {
+    width: 8px;
+    height: 8px;
+    background-color: #3a8f5c;
+    border-radius: 50%;
+}
+
+
+.badge-text {
+    font-size: 14px;
+    font-weight: 500;
+    color: #3a8f5c;
+}
+
+
+.early-badge i {
+    font-size: 8px;
+    margin-right: 6px;
+}
+
+.banner-content h1 {
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 70px;
+}
+
+.highlight {
+    color: #3a8f5c;
+}
+
+.banner-content p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #e0e0e0;
+    margin-bottom: 35px;
+}
+
+.banner-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.outline-btn {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.outline-btn:hover {
+    background-color: white;
+    color: #3a8f5c;
+}
+
+
+/* #######sdfsdfjas;ldf */ 
+/* fixed */
+
+
