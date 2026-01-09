@@ -202,3 +202,74 @@
 /* fixed */
 
 
+/* ---------------*/
+/* notes section  */
+
+
+#notes {
+    padding: 60px 0;
+    background-color: #ffffff;
+}
+
+.notes-heading {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.notes-heading h2 {
+    font-size: 35px;
+    color: #102a43;
+    margin-bottom: 20px;
+}
+
+.notes-heading p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #6b7280;
+}
+
+.notes-cards {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.note-card {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.08);
+    width: 25%;
+}
+
+.icon-circle {
+    width: 60px;
+    height: 60px;
+    background-color: #f25f5c;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-circle img {
+    width: 28px;
+}
+
+.note-card h3 {
+    font-size: 20px;
+    color: #102a43;
+    margin-bottom: 15px;
+}
+
+.note-card p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #6b7280;
+}
+.note-card:hover {
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.12);
+}
